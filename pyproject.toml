@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "surfshop"
+version = "0.1.0"
+description = ""
+authors = ["8igmac <8igmac@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+rasa = "^3.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
